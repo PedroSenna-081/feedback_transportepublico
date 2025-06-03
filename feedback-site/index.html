@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Deixe seu Feedback - Transporte Público</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+  <main>
+    <section class="form-container">
+      <h1>BusSmart</h1>
+      <p class="site-description">Preencha o formulário abaixo para enviar suas sugestões, elogios ou reclamações sobre o transporte.</p>
+
+      <form id="feedbackForm">
+        <label for="nome">Nome completo:</label>
+        <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" placeholder="exemplo@email.com" required>
+
+        <label for="genero">Gênero:</label>
+        <select id="genero" name="genero" required>
+          <option value="">Selecione seu gênero</option>
+          <option value="Masculino">Masculino</option>
+          <option value="Feminino">Feminino</option>
+          <option value="Outro">Outro</option>
+        </select>
+
+        <label for="telefone">Telefone (opcional):</label>
+        <input type="tel" id="telefone" name="telefone" placeholder="(00) 00000-0000">
+
+        <label for="linha">Linha de Transporte:</label>
+        <input type="text" id="linha" name="linha" placeholder="Ex: 820 - Terminal / Centro" required>
+
+        <label for="datahora">Data e Hora do Ocorrido:</label>
+        <input type="datetime-local" id="datahora" name="datahora" required>
+        <label for="satisfacao">Nível de Satisfação:</label>
+<div class="stars" id="satisfacao">
+  <input type="radio" name="satisfacao" value="5" id="star5"><label for="star5">★</label>
+  <input type="radio" name="satisfacao" value="4" id="star4"><label for="star4">★</label>
+  <input type="radio" name="satisfacao" value="3" id="star3"><label for="star3">★</label>
+  <input type="radio" name="satisfacao" value="2" id="star2"><label for="star2">★</label>
+  <input type="radio" name="satisfacao" value="1" id="star1"><label for="star1">★</label>
+</div>
+
+        <label for="comentario">Comentário:</label>
+        <textarea id="comentario" name="comentario" rows="5" placeholder="Descreva aqui sua experiência..." required></textarea>
+
+        <button type="submit">Enviar Feedback</button>
+
+        <div class="success" id="mensagemSucesso"></div>
+      </form>
+    </section>
+  </main>
+
+ <form action="salvar.php" method="POST"></form>
+</body>
+</html>
