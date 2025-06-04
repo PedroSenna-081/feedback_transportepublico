@@ -47,8 +47,8 @@ Este projeto foi desenvolvido para rodar em um ambiente **XAMPP**, utilizando o 
 
 1. Baixe e instale o [XAMPP](https://www.apachefriends.org/index.html) (caso ainda não tenha).
 2. Coloque todos os arquivos do projeto na pasta `htdocs` (geralmente em `C:\xampp\htdocs\feedback-site`).
-3. Inicie o **Apache** pelo painel do XAMPP.
-4. Acesse o sistema pelo navegador, usando o endereço:
+3. Inicie o **Apache** e o **MySQL** pelo painel do XAMPP.
+4. Acesse o sistema pelo navegador, usando o endereço: http://localhost/feedback-site/salvar.php.
 5. Certifique-se de que os arquivos PHP estejam com o caminho correto para o banco SQLite.
 
 ---
