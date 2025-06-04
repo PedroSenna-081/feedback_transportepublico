@@ -34,10 +34,10 @@
 
 ## 👥 Colaboradores
  
-- **Hélder Carvalho**
-- **João Márcio**
-- **Pedro Henrique** 
-- **Vinícius Barbosa**  
+- **Hélder Carvalho - 01605343**
+- **João Márcio - 01637503**
+- **Pedro Henrique - 01622493** 
+- **Vinícius Barbosa - 01602567**  
 
 ---
 
